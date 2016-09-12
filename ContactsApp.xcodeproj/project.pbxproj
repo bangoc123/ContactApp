@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F43A05131D855692007F759F /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43A05121D855692007F759F /* DetailVC.swift */; };
+		F43A051A1D85B9B0007F759F /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = F43A05181D85B9B0007F759F /* message.png */; };
+		F43A051B1D85B9B0007F759F /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = F43A05191D85B9B0007F759F /* phone.png */; };
 		F478E4461D73F4710070D579 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478E4451D73F4710070D579 /* TableViewController.swift */; };
 		F478E4481D73F89B0070D579 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478E4471D73F89B0070D579 /* Person.swift */; };
 		F4E0141B1D73F38C00AC0875 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E0141A1D73F38C00AC0875 /* AppDelegate.swift */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F43A05121D855692007F759F /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		F43A05181D85B9B0007F759F /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message.png; sourceTree = "<group>"; };
+		F43A05191D85B9B0007F759F /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
 		F478E4451D73F4710070D579 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		F478E4471D73F89B0070D579 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		F4E014171D73F38C00AC0875 /* ContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,12 +60,15 @@
 		F4E014191D73F38C00AC0875 /* ContactsApp */ = {
 			isa = PBXGroup;
 			children = (
+				F43A05181D85B9B0007F759F /* message.png */,
+				F43A05191D85B9B0007F759F /* phone.png */,
 				F4E0141A1D73F38C00AC0875 /* AppDelegate.swift */,
 				F4E014211D73F38C00AC0875 /* Assets.xcassets */,
 				F4E014231D73F38C00AC0875 /* LaunchScreen.storyboard */,
 				F4E014261D73F38C00AC0875 /* Info.plist */,
 				F478E4451D73F4710070D579 /* TableViewController.swift */,
 				F478E4471D73F89B0070D579 /* Person.swift */,
+				F43A05121D855692007F759F /* DetailVC.swift */,
 			);
 			path = ContactsApp;
 			sourceTree = "<group>";
@@ -124,6 +133,8 @@
 			files = (
 				F4E014251D73F38C00AC0875 /* LaunchScreen.storyboard in Resources */,
 				F4E014221D73F38C00AC0875 /* Assets.xcassets in Resources */,
+				F43A051B1D85B9B0007F759F /* phone.png in Resources */,
+				F43A051A1D85B9B0007F759F /* message.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F478E4481D73F89B0070D579 /* Person.swift in Sources */,
+				F43A05131D855692007F759F /* DetailVC.swift in Sources */,
 				F4E0141B1D73F38C00AC0875 /* AppDelegate.swift in Sources */,
 				F478E4461D73F4710070D579 /* TableViewController.swift in Sources */,
 			);
